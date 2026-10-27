@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 默认中文资源。 -->
+<resources>
+    <string name="app_name">超级节拍器</string>
+
+    <!-- 主控制 -->
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="stop">停止</string>
+    <string name="start">开始</string>
+    <string name="reset">重置</string>
+
+    <!-- 参数标签 -->
+    <string name="bpm">BPM</string>
+    <string name="tap_tempo">打点测速</string>
+    <string name="tap_hint">连续点击</string>
+    <string name="time_signature">拍号</string>
+    <string name="sound">音色</string>
+    <string name="volume">音量</string>
+    <string name="accent">重拍</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+
+    <!-- 练习计时 -->
+    <string name="practice_timer">练习计时</string>
+    <string name="minutes">分钟</string>
+    <string name="practice_done">练习时间到</string>
+    <string name="elapsed">已用</string>
+    <string name="remaining">剩余</string>
+
+    <!-- 语言 -->
+    <string name="language">语言</string>
+    <string name="chinese">中文</string>
+    <string name="english">English</string>
+
+    <!-- 通知 -->
+    <string name="notif_channel_name">节拍器播放</string>
+    <string name="notif_channel_desc">节拍器后台播放控制通知</string>
+    <string name="notif_title">节拍器运行中</string>
+    <string name="notif_running">%1$d BPM · %2$s</string>
+    <string name="notif_paused">节拍器已暂停</string>
+
+    <!-- 权限提示 -->
+    <string name="notif_perm_denied">未授予通知权限，状态栏控制按钮不可见，但节拍仍会播放</string>
+
+    <!-- 音色名称 -->
+    <string name="sound_sine">正弦</string>
+    <string name="sound_square">方波</string>
+    <string name="sound_woodblock">木鱼</string>
+    <string name="sound_male">男声</string>
+    <string name="sound_clave">响木</string>
+    <string name="sound_female">女声</string>
+</resources>

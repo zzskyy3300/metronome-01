@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English (en) resources. -->
+<resources>
+    <string name="app_name">Super Metronome</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+
+    <string name="bpm">BPM</string>
+    <string name="tap_tempo">Tap Tempo</string>
+    <string name="tap_hint">Tap repeatedly</string>
+    <string name="time_signature">Time Signature</string>
+    <string name="sound">Sound</string>
+    <string name="volume">Volume</string>
+    <string name="accent">Accent</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="practice_timer">Practice Timer</string>
+    <string name="minutes">min</string>
+    <string name="practice_done">Practice time is up</string>
+    <string name="elapsed">Elapsed</string>
+    <string name="remaining">Remaining</string>
+
+    <string name="language">Language</string>
+    <string name="chinese">中文</string>
+    <string name="english">English</string>
+
+    <string name="notif_channel_name">Metronome Playback</string>
+    <string name="notif_channel_desc">Metronome background playback control</string>
+    <string name="notif_title">Metronome running</string>
+    <string name="notif_running">%1$d BPM · %2$s</string>
+    <string name="notif_paused">Metronome paused</string>
+
+    <string name="notif_perm_denied">Notification permission denied. Status bar controls hidden, but beats keep playing.</string>
+
+    <string name="sound_sine">Sine</string>
+    <string name="sound_square">Square</string>
+    <string name="sound_woodblock">Woodblock</string>
+    <string name="sound_male">Male</string>
+    <string name="sound_clave">Clave</string>
+    <string name="sound_female">Female</string>
+</resources>

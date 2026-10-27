@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 颜色资源（XML 主题用；Compose 颜色在 ui/theme 中定义）。 -->
+<resources>
+    <color name="background_dark">#FF0F1115</color>
+    <color name="surface_dark">#FF1A1D24</color>
+    <color name="accent_strong">#FFE53935</color>
+    <color name="accent_weak">#FF3949AB</color>
+    <color name="ic_launcher_background">#FF1A1D24</color>
+</resources>

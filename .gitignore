@@ -1,0 +1,12 @@
+# 构建产物
+/build
+/app/build
+/.gradle
+/local.properties
+# IDE
+/.idea
+*.iml
+# 签名密钥（本地）
+/keystore/*.jks
+/keystore/*.keystore
+/keystore.properties

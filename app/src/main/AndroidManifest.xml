@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 节拍器应用清单。
+     权限说明（满足"零多余权限"）：
+       FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK：后台持续播放所需前台服务（API34 类型化必需）。
+       POST_NOTIFICATIONS：Android13+ 显示状态栏通知（含暂停/继续按钮）必需，唯一运行时权限。
+     无网络/存储/麦克风/定位权限。 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Metronome">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Metronome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 前台服务：息屏/后台持续播放节拍。类型 mediaPlayback，API34 类型化前台服务。 -->
+        <service
+            android:name=".service.MetronomeService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+    </application>
+
+</manifest>
